@@ -59,6 +59,13 @@ p {
     background-position: center;
 }
 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* THIS IS THE LEFT SECTION */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -72,12 +79,22 @@ p {
     max-height: 200px;
     max-width:  300px;
 }
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* END SECTION */
+
+
 /* THIS IS THE ASIDE */
 aside{
     margin-bottom: 32px;
@@ -108,21 +125,6 @@ img {
 }
 /* END ASIDE */
 
-/* THIS IS THE LEFT SECTION */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* END SECTION */
 /* FOOTER */
 footer {
     padding: 30px;
